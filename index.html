@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html>
+	<!-- Starter Header -->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Sætter Titel -->
+	<title>IOT Gruppe 3</title>
+
+	<!-- Henter css fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
+	
+	<!-- Henter Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Henter Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Henter Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Henter Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Henter Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Henter Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+
+	<!-- Start Body -->
+
+	<body>
+		
+	<div class="colorlib-loader"></div>
+
+	<div id="page">
+		<!-- laver et lille tag med Gruppe 3 i toppen af venstre side -->
+		<nav class="colorlib-nav" role="navigation">
+			<div class="top-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2">
+							<!-- Vi bruger href til at gøre den mere fremhævet, eller havde den været under billedet -->
+							<div id="colorlib-logo"><a href="#">Gruppe 3</a></div>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- indsætter baggrunds billede -->
+		<section id="home" class="video-hero" style="height: 500px; background-image: url(images/cover_img_1.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
+		<div class="overlay"></div>
+			<div class="display-t display-t2 text-center">
+				<div class="display-tc display-tc2">
+					<div class="container">
+						<div class="col-md-12 col-md-offset-0">
+							<div class="animate-box">
+								<h2>Data fremvisning</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="colorlib-work">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<!-- Her vælger vi hvor billede skal sættes ind, efter row og collum -->
+									<div class="col-md-12 col-md-push-12 no-gutters">
+										<div style="overflow: hidden; margin: 0px auto; max-width: 736px;">
+											<!-- Her sætter vi et live feed ind fra thinkspeak -->
+										<iframe scrolling="no" src="https://thingspeak.com/channels/869891/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=idag&type=column" style="height: 433px; width: 746px;">
+										</iframe>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<!-- Her vælger vi hvor teksten skal sættes ind, efter row og collum -->
+									<div class="col-md-12 col-md-pull-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+												<h2>Dagens data</h2>
+												<p>Denne graf ændre sig i løbet af dagen, og bliver opdateret med mængeden af kunder som er blevet skannet</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<!-- Her vælger vi hvor billede skal sættes ind, efter row og collum -->
+									<div class="col-md-12 no-gutters">
+											<div style="overflow: hidden; margin: 0px auto; max-width: 736px;">
+												<!-- Her sætter vi et live feed ind fra thinkspeak -->
+													<iframe scrolling="no" src="https://thingspeak.com/channels/869891/widgets/104705" style="height: 433px; width: 746px;">
+												</iframe>
+											</div>
+									</div>
+								</div>
+							</div>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<!-- Her vælger vi hvor teksten skal sættes ind, efter row og collum -->
+									<div class="col-md-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+												<h2>Senest skan</h2>
+												<p>Dette viser det senest skan som er blevet lavet</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<!-- Her vælger vi hvor billede skal sættes ind, efter row og collum -->
+									<div class="col-md-12 col-md-push-12 no-gutters">
+											<div style="overflow: hidden; margin: 0px auto; max-width: 736px;">
+												<!-- Her sætter vi et live feed ind fra thinkspeak -->
+													<iframe scrolling="no" src="https://thingspeak.com/channels/869891/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Test2%28%29&type=line" style="height: 433px; width: 746px;">
+												</iframe>
+											</div>
+									</div>
+								</div>
+							</div>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<!-- Her vælger vi hvor teksten skal sættes ind, efter row og collum -->
+									<div class="col-md-12 col-md-pull-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+												<h2>En uges data</h2>
+												<p>i denne uge har vi haft 5325 kunder på besøg</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12">
+						<div class="work-flex">
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<!-- Her vælger vi hvor billede skal sættes ind, efter row og collum -->
+									<div class="col-md-12 no-gutters">
+											<div style="overflow: hidden; margin: 0px auto; max-width: 736px;">
+												<!-- Her sætter vi et live feed ind fra thinkspeak -->
+													<iframe scrolling="no" src="https://thingspeak.com/channels/869891/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" style="height: 433px; width: 746px;">
+												</iframe>
+											</div>
+									</div>
+								</div>
+							</div>
+							<div class="half animate-box">
+								<div class="row no-gutters">
+									<!-- Her vælger vi hvor teksten skal sættes ind, efter row og collum -->
+									<div class="col-md-12 no-gutters">
+										<div class="display-t desc">
+											<div class="display-tc">
+												<h2>En måndes data</h2>
+												<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<ul>
+						<div class="button_start">
+								<button type="button" class="btn btn-success" onclick="startstop()" id="btnStartStop">Start Sniffer</button>
+						</div>
+					</ul>
+				</div>	
+			</div>
+	
+	<!-- Alle scripts som bliver brugt -->
+
+	<!-- Start stop sniffer -->
+	<script type="text/javascript" src="js/sniffer.js"></script>
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- YTPlayer -->
+	<script src="js/jquery.mb.YTPlayer.min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
