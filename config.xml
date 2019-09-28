@@ -9,7 +9,7 @@
         App to controlle Management Scanner for Activity
     </description>
     <author >
-         David Jacobsen & Lasse Flotin based on an example by Don Coleman: 
+         David Jacobsen and Lasse Flotin based on an example by Don Coleman: 
 		 https://github.com/don/cordova-plugin-ble-central 
 		 revideret til IoS af Rico Ghanem
     </author>
